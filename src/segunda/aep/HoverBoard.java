@@ -48,7 +48,7 @@ public class HoverBoard {
 			return true;
 		} catch (Exception erro) {
 			this.avisar();
-			System.out.println(erro.getMessage());
+			System.out.println("Mensagem de exceção: " + erro.getMessage());
 			return false;
 		}
 	}
