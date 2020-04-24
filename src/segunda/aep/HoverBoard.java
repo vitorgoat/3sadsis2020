@@ -23,7 +23,7 @@ public class HoverBoard {
 	
     private void avisar(){
     	
-    	System.out.println("O nome do seu HoverBoard é:" +this.nomeHover);
+    	System.out.println("Seu hoverboard se chama:" +this.nomeHover);
     	System.out.println("o código do HoverBoard é:" + this.codigo);
     	System.out.println("Para desbloquear é:" + this.preco);
     	
@@ -37,7 +37,7 @@ public class HoverBoard {
 		}
 	}
  
-	public boolean pesquisaEstadoCasa() {
+	public boolean estadoHoverBoard() {
 		try {
 			
 			this.verificarSituacaoDoHover();
